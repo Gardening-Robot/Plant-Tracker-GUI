@@ -11,11 +11,14 @@ const enum
 	ID_Instructions,
 	ID_InstructionsPanel,
 	ID_PlantList,
+	ID_WateringList,
 	ID_Selected,
 	ID_AddPlantBtn,
 	ID_DeletePlantBtn,
 	ID_HarvestPlantBtn,
 	ID_ChangeYearBtn,
+	ID_WaterPlantsBtn,
+	ID_ChangeViewBtn,
 
 	ID_AddPlantDialog,
 	ID_AddPlantInstructions1,
@@ -29,6 +32,10 @@ const enum
 
 	ID_ChangeYearDialog,
 	ID_ChangeYearInstructions,
-	ID_ChangeYearText
+	ID_ChangeYearText,
+
+	ID_AddWateringDialog,
+	ID_AddWateringInstructions,
+	ID_AddWateringText
 };
 

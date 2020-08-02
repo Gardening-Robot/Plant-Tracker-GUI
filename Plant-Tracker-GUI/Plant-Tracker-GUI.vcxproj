@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddPlantDialog.cpp" />
+    <ClCompile Include="AddWateringDialog.cpp" />
     <ClCompile Include="ChangeYearDialog.cpp" />
     <ClCompile Include="DeletePlantDialog.cpp" />
     <ClCompile Include="HarvestPlantDialog.cpp" />
@@ -154,6 +155,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddPlantDialog.h" />
+    <ClInclude Include="AddWateringDialog.h" />
     <ClInclude Include="ChangeYearDialog.h" />
     <ClInclude Include="DeletePlantDialog.h" />
     <ClInclude Include="HarvestPlantDialog.h" />

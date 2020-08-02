@@ -38,12 +38,25 @@ std::string Plant::getHarvestDates() {
     return harvestDates;
 }
 
+std::string Plant::getWaterDates() {
+    std::string waterDateList = "";
+    for (const auto& datePair : waterDates) {
+        std::string temp = posToDate(datePair.first);
+        waterDateList.append(temp + ",");
+    }
+    return waterDateList;
+}
+
 int Plant::getYear() {
     return year;
 }
 
 void Plant::addHarvestDate(std::string harvestDate) {
     plantHarvestDates.insert(std::pair<int, std::string>(dateToPos(harvestDate), harvestDate));
+}
+
+void Plant::addWaterDate(std::string waterDate) {
+    waterDates.insert(std::pair<int, std::string>(dateToPos(waterDate), waterDate));
 }
 
 std::string Plant::to_string() {
