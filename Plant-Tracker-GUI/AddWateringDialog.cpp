@@ -1,7 +1,7 @@
 /*
- * File:   AddPlantDialog.cpp
+ * File:   AddWateringDialog.cpp
  *
- * Dialog for adding a plant
+ * Dialog for adding a water date
  */
 #include "AddWateringDialog.h"
 
